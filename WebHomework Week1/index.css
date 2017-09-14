@@ -1,0 +1,97 @@
+    .photo {
+        width: 300px;
+        height: 300px;
+        transition: all 1s;
+        border-radius: 200px;
+    }
+    
+    .photo:hover {
+        border-radius: 0;
+        transform: scale(1.4);
+    }
+    
+    .name {
+        font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+        font-size: 20pt;
+        font-weight: normal;
+        display: block;
+        padding: 15pt;
+        animation: Change1 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    .Title {
+        color: #55451A;
+        font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+        font-size: 50pt;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .Pictures {
+        padding: 40px;
+        text-align: center;
+    }
+    
+    body {
+        background: url(imge/beijing.jpg);
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 20px;
+        font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+        font-size: 20pt;
+        font-weight: normal;
+        animation: Change2 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    .PNGofList {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+    
+    @keyframes Change1 {
+        0% {
+            color: #55451A;
+        }
+        33% {
+            transform: rotate(-8deg);
+            color: #862013;
+        }
+        66% {
+            transform: rotate(8deg);
+            color: #CE290C;
+        }
+        100% {
+            transform: rotate(0);
+            color: #55451A;
+        }
+    }
+    
+    @keyframes Change2 {
+        0% {
+            color: #55451A;
+        }
+        33% {
+            color: #862013;
+        }
+        66% {
+            color: #CE290C;
+        }
+        100% {
+            color: #55451A;
+        }
+    }

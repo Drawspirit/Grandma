@@ -1,0 +1,64 @@
+#MainHeading {
+    color: #A4A400;
+    background: #F0F0F0;
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.OtherHeading {
+    color: #A4A400;
+    background: #F0F0F0;
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.Links {
+    color: #A4A400;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    text-decoration: underline;
+}
+
+.TitleOfSteps {
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+blockquote {
+    color: #404040;
+    background: #FFFFC8;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    font-style: italic;
+}
+
+body {
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    background: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed
+}
+
+div {
+    margin-top: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    background: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif)no-repeat center left;
+    padding-left: 20px;
+}
+
+h1,
+h2 {
+    letter-spacing: 0.2em;
+}
